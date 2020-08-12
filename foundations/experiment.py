@@ -62,7 +62,7 @@ def experiment(make_dataset, make_model, train_model, prune_masks, iterations,
 
   # Create the initial masks with no weights pruned.
   masks = {}
-  for k, v in initial.items():
+  for k, v in initial.items(): # items() -> key,value 값 뽑아내기. ex) dictionary = { 'Name' : 'Hoit' } 일때 dictionary.items() 를 입력./ 결과는 -> [ ( 'Name', 'Hoit') ] 의 list 타입
     masks[k] = np.ones(v.shape)
 
   # Begin the training loop.
