@@ -23,7 +23,7 @@ import os
 
 def initial(parent_directory):
   """The path where the weights at the beginning of training are stored."""
-  return os.path.join(parent_directory, 'initial')
+  return os.path.join(parent_directory, 'initial') # 경로를 병합하여 새 경로 생성
 
 
 def final(parent_directory):
