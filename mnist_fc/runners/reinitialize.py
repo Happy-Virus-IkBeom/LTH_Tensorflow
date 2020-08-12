@@ -27,4 +27,4 @@ def main(_=None):
 
 
 if __name__ == '__main__': # 재 스크립트 파일이 프로그램의 시작점이 맞는지 판단하는 작업입니다. 즉, 스크립트 파일이 메인 프로그램으로 사용될 때와 모듈로 사용될 때를 구분하기 위한 용도입니다.
-  main()
+  main()                   # https://dojang.io/mod/page/view.php?id=2448 참고.
